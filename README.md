@@ -1,6 +1,6 @@
 # AI Blueprint
 
-![AI Blueprint](assets/images/banner.svg)
+![AI Blueprint](assets/images/banner.png)
 
 A structured, public knowledge base for learning AI — from math fundamentals to LLMs, RAG, agents, MCP, and interview prep. Organized so it stays navigable as it grows and easy for others to contribute to.
 
