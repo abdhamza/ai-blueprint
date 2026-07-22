@@ -1,7 +1,11 @@
-# Llm Genai Questions
+# LLM / GenAI — Interview Questions
 
-Notes, links, and resources for **Llm Genai Questions**.
+Add new questions in the same `### Q. / **Answer:**` format, newest at the bottom.
 
-| Title | Link/Path | Notes | Date Added |
-|---|---|---|---|
-| | | | |
+---
+
+### 1. What's the difference between fine-tuning and RAG, and when would you choose one over the other?
+
+**Answer:**
+
+---

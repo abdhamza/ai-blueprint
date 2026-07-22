@@ -1,7 +1,11 @@
-# Ml Questions
+# Machine Learning — Interview Questions
 
-Notes, links, and resources for **Ml Questions**.
+Add new questions in the same `### Q. / **Answer:**` format, newest at the bottom.
 
-| Title | Link/Path | Notes | Date Added |
-|---|---|---|---|
-| | | | |
+---
+
+### 1. What is the bias-variance tradeoff?
+
+**Answer:**
+
+---

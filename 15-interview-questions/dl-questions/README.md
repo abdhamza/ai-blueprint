@@ -1,7 +1,11 @@
-# Dl Questions
+# Deep Learning — Interview Questions
 
-Notes, links, and resources for **Dl Questions**.
+Add new questions in the same `### Q. / **Answer:**` format, newest at the bottom.
 
-| Title | Link/Path | Notes | Date Added |
-|---|---|---|---|
-| | | | |
+---
+
+### 1. What is the vanishing gradient problem, and how do modern architectures mitigate it?
+
+**Answer:**
+
+---

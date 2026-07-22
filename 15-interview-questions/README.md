@@ -7,3 +7,4 @@
 | [llm-genai-questions](llm-genai-questions/README.md) | LLM/GenAI interview questions |
 | [system-design-questions](system-design-questions/README.md) | AI system design interview questions |
 | [coding-questions](coding-questions/README.md) | Coding/DSA questions relevant to AI roles |
+| [ai-security-engineer](ai-security-engineer/README.md) | Full interview prep guide for the AI Security Engineer role |
