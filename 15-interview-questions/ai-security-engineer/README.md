@@ -78,7 +78,7 @@
 
 ---
 
-# 1. In plain terms, what is an LLM and why is it a security-relevant piece of software rather than "just an API"?
+## 1. In plain terms, what is an LLM and why is it a security-relevant piece of software rather than "just an API"?
 
 ### Answer
 
@@ -88,7 +88,7 @@
 
 ---
 
-# 2. What is RAG (Retrieval-Augmented Generation) and what does it add to the attack surface?
+## 2. What is RAG (Retrieval-Augmented Generation) and what does it add to the attack surface?
 
 ### Answer
 
@@ -96,7 +96,7 @@
 
 ---
 
-# 3. What are embeddings and vector databases, and where do they introduce risk?
+## 3. What are embeddings and vector databases, and where do they introduce risk?
 
 ### Answer
 
@@ -104,7 +104,7 @@
 
 ---
 
-# 4. What is prompt engineering, and how does it relate to security (as opposed to just quality)?
+## 4. What is prompt engineering, and how does it relate to security (as opposed to just quality)?
 
 ### Answer
 
@@ -112,7 +112,7 @@
 
 ---
 
-# 5. What is an AI agent, and how is it different (from a security standpoint) from a simple chatbot?
+## 5. What is an AI agent, and how is it different (from a security standpoint) from a simple chatbot?
 
 ### Answer
 
@@ -120,7 +120,7 @@
 
 ---
 
-# 6. Walk through, end-to-end, what happens when a user asks an enterprise RAG chatbot a question — and identify where security controls should sit.
+## 6. Walk through, end-to-end, what happens when a user asks an enterprise RAG chatbot a question — and identify where security controls should sit.
 
 ### Answer
 
@@ -128,7 +128,7 @@
 
 ---
 
-# 7. Name the OWASP Top 10 for LLM Applications (2025) and describe each in one line.
+## 7. Name the OWASP Top 10 for LLM Applications (2025) and describe each in one line.
 
 ### Answer
 
@@ -147,7 +147,7 @@
 
 ---
 
-# 8. Explain prompt injection with a concrete example, and name direct vs. indirect variants.
+## 8. Explain prompt injection with a concrete example, and name direct vs. indirect variants.
 
 ### Answer
 
@@ -155,7 +155,7 @@
 
 ---
 
-# 9. How do you mitigate prompt injection? (This is almost guaranteed to be asked — have a layered answer.)
+## 9. How do you mitigate prompt injection? (This is almost guaranteed to be asked — have a layered answer.)
 
 ### Answer
 
@@ -163,7 +163,7 @@
 
 ---
 
-# 10. What's the difference between a "jailbreak" and a "prompt injection"?
+## 10. What's the difference between a "jailbreak" and a "prompt injection"?
 
 ### Answer
 
@@ -171,7 +171,7 @@
 
 ---
 
-# 11. What is "insecure output handling" and why is it treated as a top LLM risk?
+## 11. What is "insecure output handling" and why is it treated as a top LLM risk?
 
 ### Answer
 
@@ -179,7 +179,7 @@
 
 ---
 
-# 12. What is "excessive agency" and how do you scope it down in a real design?
+## 12. What is "excessive agency" and how do you scope it down in a real design?
 
 ### Answer
 
@@ -187,7 +187,7 @@
 
 ---
 
-# 13. What is system prompt leakage and does it actually matter if the system prompt has no secrets in it?
+## 13. What is system prompt leakage and does it actually matter if the system prompt has no secrets in it?
 
 ### Answer
 
@@ -195,7 +195,7 @@
 
 ---
 
-# 14. What is data/model poisoning, and how would you detect or prevent it in a fine-tuning or RAG pipeline?
+## 14. What is data/model poisoning, and how would you detect or prevent it in a fine-tuning or RAG pipeline?
 
 ### Answer
 
@@ -203,7 +203,7 @@
 
 ---
 
-# 15. What is "unbounded consumption" / denial-of-wallet, and what controls address it?
+## 15. What is "unbounded consumption" / denial-of-wallet, and what controls address it?
 
 ### Answer
 
@@ -211,7 +211,7 @@
 
 ---
 
-# 16. How do LLMs leak sensitive information, and what are the mitigations?
+## 16. How do LLMs leak sensitive information, and what are the mitigations?
 
 ### Answer
 
@@ -219,7 +219,7 @@
 
 ---
 
-# 17. How do you enforce access control in a RAG system so users only retrieve content they're authorized to see?
+## 17. How do you enforce access control in a RAG system so users only retrieve content they're authorized to see?
 
 ### Answer
 
@@ -227,7 +227,7 @@
 
 ---
 
-# 18. What is indirect prompt injection via RAG, and give a realistic enterprise example.
+## 18. What is indirect prompt injection via RAG, and give a realistic enterprise example.
 
 ### Answer
 
@@ -235,7 +235,7 @@
 
 ---
 
-# 19. Can embeddings themselves leak sensitive data, even without exposing the original text?
+## 19. Can embeddings themselves leak sensitive data, even without exposing the original text?
 
 ### Answer
 
@@ -243,7 +243,7 @@
 
 ---
 
-# 20. How would you secure a multi-tenant vector database deployment?
+## 20. How would you secure a multi-tenant vector database deployment?
 
 ### Answer
 
@@ -251,7 +251,7 @@
 
 ---
 
-# 21. How do you keep a RAG knowledge base from becoming a poisoning vector?
+## 21. How do you keep a RAG knowledge base from becoming a poisoning vector?
 
 ### Answer
 
@@ -259,7 +259,7 @@
 
 ---
 
-# 22. What makes tool/function calling risky, and how do you secure it?
+## 22. What makes tool/function calling risky, and how do you secure it?
 
 ### Answer
 
@@ -267,7 +267,7 @@
 
 ---
 
-# 23. Describe a threat model for an autonomous coding/DevOps agent that can run shell commands.
+## 23. Describe a threat model for an autonomous coding/DevOps agent that can run shell commands.
 
 ### Answer
 
@@ -275,7 +275,7 @@
 
 ---
 
-# 24. What is a "confused deputy" problem in the context of AI agents, and how does it show up?
+## 24. What is a "confused deputy" problem in the context of AI agents, and how does it show up?
 
 ### Answer
 
@@ -283,7 +283,7 @@
 
 ---
 
-# 25. How do you handle authentication and authorization when an agent chains multiple tools/APIs together, possibly across services?
+## 25. How do you handle authentication and authorization when an agent chains multiple tools/APIs together, possibly across services?
 
 ### Answer
 
@@ -291,7 +291,7 @@
 
 ---
 
-# 26. An agent needs to browse the web to answer questions. What's the specific risk, and how do you contain it?
+## 26. An agent needs to browse the web to answer questions. What's the specific risk, and how do you contain it?
 
 ### Answer
 
@@ -299,7 +299,7 @@
 
 ---
 
-# 27. What does "secure by design" look like for an enterprise AI application's architecture, top to bottom?
+## 27. What does "secure by design" look like for an enterprise AI application's architecture, top to bottom?
 
 ### Answer
 
@@ -307,7 +307,7 @@
 
 ---
 
-# 28. What should you log in an LLM application, and what should you deliberately NOT log (or must redact)?
+## 28. What should you log in an LLM application, and what should you deliberately NOT log (or must redact)?
 
 ### Answer
 
@@ -315,7 +315,7 @@
 
 ---
 
-# 29. How do you approach authentication/authorization differently for an AI system vs. a traditional web app?
+## 29. How do you approach authentication/authorization differently for an AI system vs. a traditional web app?
 
 ### Answer
 
@@ -323,7 +323,7 @@
 
 ---
 
-# 30. How do you protect sensitive data (PII/PHI/secrets) that flows through prompts, retrieved context, and outputs?
+## 30. How do you protect sensitive data (PII/PHI/secrets) that flows through prompts, retrieved context, and outputs?
 
 ### Answer
 
@@ -331,7 +331,7 @@
 
 ---
 
-# 31. What AI-specific signals would you want in a SIEM/monitoring dashboard that a traditional app dashboard wouldn't have?
+## 31. What AI-specific signals would you want in a SIEM/monitoring dashboard that a traditional app dashboard wouldn't have?
 
 ### Answer
 
@@ -339,7 +339,7 @@
 
 ---
 
-# 32. What are the main AI/LLM services on Azure, AWS, and GCP, and what security controls are specific to them?
+## 32. What are the main AI/LLM services on Azure, AWS, and GCP, and what security controls are specific to them?
 
 ### Answer
 
@@ -351,7 +351,7 @@
 
 ---
 
-# 33. How do you secure API-based access to a foundation model (e.g., an internal app calling GPT/Claude/Gemini via API)?
+## 33. How do you secure API-based access to a foundation model (e.g., an internal app calling GPT/Claude/Gemini via API)?
 
 ### Answer
 
@@ -359,7 +359,7 @@
 
 ---
 
-# 34. What's the security value of a "private endpoint" / VNet integration for an AI service, concretely?
+## 34. What's the security value of a "private endpoint" / VNet integration for an AI service, concretely?
 
 ### Answer
 
@@ -367,7 +367,7 @@
 
 ---
 
-# 35. How would you design IAM permissions for a team building on Bedrock/Vertex/Azure OpenAI so different roles (data scientists, app developers, security) have appropriate access?
+## 35. How would you design IAM permissions for a team building on Bedrock/Vertex/Azure OpenAI so different roles (data scientists, app developers, security) have appropriate access?
 
 ### Answer
 
@@ -375,7 +375,7 @@
 
 ---
 
-# 36. Do traditional SAST/DAST tools catch LLM-specific vulnerabilities like prompt injection? If not, what fills the gap?
+## 36. Do traditional SAST/DAST tools catch LLM-specific vulnerabilities like prompt injection? If not, what fills the gap?
 
 ### Answer
 
@@ -383,7 +383,7 @@
 
 ---
 
-# 37. What would a vulnerability-scanning program for an AI platform include, beyond standard infra scanning?
+## 37. What would a vulnerability-scanning program for an AI platform include, beyond standard infra scanning?
 
 ### Answer
 
@@ -391,7 +391,7 @@
 
 ---
 
-# 38. How would you integrate AI security testing into a CI/CD pipeline?
+## 38. How would you integrate AI security testing into a CI/CD pipeline?
 
 ### Answer
 
@@ -399,7 +399,7 @@
 
 ---
 
-# 39. What SIEM use cases would you build specifically for an AI platform?
+## 39. What SIEM use cases would you build specifically for an AI platform?
 
 ### Answer
 
@@ -407,7 +407,7 @@
 
 ---
 
-# 40. What frameworks would you use to structure an AI governance/risk program, and what does each give you?
+## 40. What frameworks would you use to structure an AI governance/risk program, and what does each give you?
 
 ### Answer
 
@@ -415,7 +415,7 @@
 
 ---
 
-# 41. What does "responsible AI" mean in a security context, as opposed to a pure ethics/fairness context?
+## 41. What does "responsible AI" mean in a security context, as opposed to a pure ethics/fairness context?
 
 ### Answer
 
@@ -423,7 +423,7 @@
 
 ---
 
-# 42. How do compliance regimes like GDPR, HIPAA, or industry-specific regulations change how you design an AI system?
+## 42. How do compliance regimes like GDPR, HIPAA, or industry-specific regulations change how you design an AI system?
 
 ### Answer
 
@@ -431,7 +431,7 @@
 
 ---
 
-# 43. How do you handle the "right to erasure" / data deletion requirement when personal data may have been used in RAG or fine-tuning?
+## 43. How do you handle the "right to erasure" / data deletion requirement when personal data may have been used in RAG or fine-tuning?
 
 ### Answer
 
@@ -439,7 +439,7 @@
 
 ---
 
-# 44. What is "content safety" tooling, and how does it fit into a responsible AI/compliance program?
+## 44. What is "content safety" tooling, and how does it fit into a responsible AI/compliance program?
 
 ### Answer
 
@@ -447,7 +447,7 @@
 
 ---
 
-# 45. What does an LLM red-teaming engagement actually look like, step by step?
+## 45. What does an LLM red-teaming engagement actually look like, step by step?
 
 ### Answer
 
@@ -455,7 +455,7 @@
 
 ---
 
-# 46. What's the difference between red teaming an LLM and red teaming a traditional web application?
+## 46. What's the difference between red teaming an LLM and red teaming a traditional web application?
 
 ### Answer
 
@@ -463,7 +463,7 @@
 
 ---
 
-# 47. What are "guardrails" in LLM applications, and name a few concrete mechanisms.
+## 47. What are "guardrails" in LLM applications, and name a few concrete mechanisms.
 
 ### Answer
 
@@ -471,7 +471,7 @@
 
 ---
 
-# 48. Guardrail classifiers themselves can be evaded (an attacker can jailbreak the guardrail model too). How do you defend against that?
+## 48. Guardrail classifiers themselves can be evaded (an attacker can jailbreak the guardrail model too). How do you defend against that?
 
 ### Answer
 
@@ -479,7 +479,7 @@
 
 ---
 
-# 49. What is output validation, concretely, for a system where the LLM's output triggers an action (not just displays text)?
+## 49. What is output validation, concretely, for a system where the LLM's output triggers an action (not just displays text)?
 
 ### Answer
 
@@ -487,7 +487,7 @@
 
 ---
 
-# 50. How do you measure whether your guardrails/mitigations are actually working, over time?
+## 50. How do you measure whether your guardrails/mitigations are actually working, over time?
 
 ### Answer
 
@@ -495,7 +495,7 @@
 
 ---
 
-# 51. Walk through how you'd threat-model a new enterprise AI assistant from scratch.
+## 51. Walk through how you'd threat-model a new enterprise AI assistant from scratch.
 
 ### Answer
 
@@ -503,7 +503,7 @@
 
 ---
 
-# 52. How does STRIDE map onto AI-specific risks? Give one AI example per STRIDE category.
+## 52. How does STRIDE map onto AI-specific risks? Give one AI example per STRIDE category.
 
 ### Answer
 
@@ -516,7 +516,7 @@
 
 ---
 
-# 53. How do you threat-model specifically for a *multi-agent* system (agents calling other agents)?
+## 53. How do you threat-model specifically for a *multi-agent* system (agents calling other agents)?
 
 ### Answer
 
@@ -524,7 +524,7 @@
 
 ---
 
-# 54. If asked "what certifications do you hold / are pursuing and why," how should you frame the answer if you have general security certs but not an AI-specific one (since AI security certs are still immature)?
+## 54. If asked "what certifications do you hold / are pursuing and why," how should you frame the answer if you have general security certs but not an AI-specific one (since AI security certs are still immature)?
 
 ### Answer
 
@@ -532,7 +532,7 @@
 
 ---
 
-# 55. What core traditional security concepts from CISSP/Security+ transfer most directly to AI security work?
+## 55. What core traditional security concepts from CISSP/Security+ transfer most directly to AI security work?
 
 ### Answer
 
@@ -540,7 +540,7 @@
 
 ---
 
-# 56. What's different about deploying AI security controls in a regulated industry (telecom/fintech) vs. a less regulated one?
+## 56. What's different about deploying AI security controls in a regulated industry (telecom/fintech) vs. a less regulated one?
 
 ### Answer
 
@@ -548,7 +548,7 @@
 
 ---
 
-# 57. How would you secure an AI-powered fraud-detection or customer-service assistant handling financial data?
+## 57. How would you secure an AI-powered fraud-detection or customer-service assistant handling financial data?
 
 ### Answer
 
@@ -556,7 +556,7 @@
 
 ---
 
-# 58. "Design and implement security controls for AI applications, LLM integrations, AI agents, and RAG-based systems." — Walk me through how you'd approach securing a brand-new internal AI agent before it goes to production.
+## 58. "Design and implement security controls for AI applications, LLM integrations, AI agents, and RAG-based systems." — Walk me through how you'd approach securing a brand-new internal AI agent before it goes to production.
 
 ### Answer
 
@@ -564,7 +564,7 @@
 
 ---
 
-# 59. "Identify and mitigate AI-specific threats such as prompt injection, jailbreaks, data exfiltration..." — Tell me about a time you found a security issue in an AI/LLM system (or, if hypothetical: how would you go about finding one in a system you've never seen before)?
+## 59. "Identify and mitigate AI-specific threats such as prompt injection, jailbreaks, data exfiltration..." — Tell me about a time you found a security issue in an AI/LLM system (or, if hypothetical: how would you go about finding one in a system you've never seen before)?
 
 ### Answer
 
@@ -572,7 +572,7 @@
 
 ---
 
-# 60. "Secure prompt workflows, system prompts, agent instructions, retrieval pipelines, and AI orchestration layers." — How would you review a system prompt for security issues before it ships?
+## 60. "Secure prompt workflows, system prompts, agent instructions, retrieval pipelines, and AI orchestration layers." — How would you review a system prompt for security issues before it ships?
 
 ### Answer
 
@@ -580,7 +580,7 @@
 
 ---
 
-# 61. "Ensure secure handling of sensitive data across AI applications, including user inputs, retrieved context, prompts, and model outputs." — A business team wants to fine-tune a model on customer support transcripts that contain PII. How do you respond?
+## 61. "Ensure secure handling of sensitive data across AI applications, including user inputs, retrieved context, prompts, and model outputs." — A business team wants to fine-tune a model on customer support transcripts that contain PII. How do you respond?
 
 ### Answer
 
@@ -588,7 +588,7 @@
 
 ---
 
-# 62. "Perform security assessments, red teaming, and audits of AI systems." — How do you prioritize which AI systems in a large enterprise portfolio to assess first, given limited time?
+## 62. "Perform security assessments, red teaming, and audits of AI systems." — How do you prioritize which AI systems in a large enterprise portfolio to assess first, given limited time?
 
 ### Answer
 
@@ -596,7 +596,7 @@
 
 ---
 
-# 63. "Monitor emerging AI-related security threats and recommend proactive mitigation strategies." — How do you stay current on this fast-moving field, and how do you turn that into action rather than just reading?
+## 63. "Monitor emerging AI-related security threats and recommend proactive mitigation strategies." — How do you stay current on this fast-moving field, and how do you turn that into action rather than just reading?
 
 ### Answer
 
@@ -604,7 +604,7 @@
 
 ---
 
-# 64. "Collaborate with engineering teams to secure AI APIs, cloud deployments, access controls, and production AI platforms." — Describe how you'd work with an AI engineering team that wants to ship fast and sees security review as a blocker.
+## 64. "Collaborate with engineering teams to secure AI APIs, cloud deployments, access controls, and production AI platforms." — Describe how you'd work with an AI engineering team that wants to ship fast and sees security review as a blocker.
 
 ### Answer
 
@@ -612,7 +612,7 @@
 
 ---
 
-# 65. "Define and enforce AI security governance, responsible AI controls, and compliance best practices." — How would you get engineering teams to actually follow an AI security policy rather than treat it as a document nobody reads?
+## 65. "Define and enforce AI security governance, responsible AI controls, and compliance best practices." — How would you get engineering teams to actually follow an AI security policy rather than treat it as a document nobody reads?
 
 ### Answer
 
@@ -620,7 +620,7 @@
 
 ---
 
-# 66. Tell me about a time you had to explain a technical security risk to a non-technical stakeholder (product manager, executive). How did you approach it?
+## 66. Tell me about a time you had to explain a technical security risk to a non-technical stakeholder (product manager, executive). How did you approach it?
 
 ### Answer
 
@@ -628,7 +628,7 @@
 
 ---
 
-# 67. Describe a situation where you disagreed with an engineering team's approach to an AI feature on security grounds. How did you handle it, and what was the outcome?
+## 67. Describe a situation where you disagreed with an engineering team's approach to an AI feature on security grounds. How did you handle it, and what was the outcome?
 
 ### Answer
 
