@@ -32,7 +32,7 @@
 
 ---
 
-# 1. Walk me through your RAG pipeline.
+## 1. Walk me through your RAG pipeline.
 
 ### Answer
 
@@ -44,7 +44,7 @@
 
 ---
 
-# 2. Why do we split documents into chunks?
+## 2. Why do we split documents into chunks?
 
 ### Answer
 
@@ -56,7 +56,7 @@
 
 ---
 
-# 3. Why not embed the whole PDF?
+## 3. Why not embed the whole PDF?
 
 ### Answer
 
@@ -68,7 +68,7 @@
 
 ---
 
-# 4. What is an embedding?
+## 4. What is an embedding?
 
 ### Answer
 
@@ -102,7 +102,7 @@ These vectors are close because both sentences have similar meanings.
 
 ---
 
-# 5. Why did you use FAISS?
+## 5. Why did you use FAISS?
 
 ### Answer
 
@@ -114,7 +114,7 @@ These vectors are close because both sentences have similar meanings.
 
 ---
 
-# 6. Is FAISS a database?
+## 6. Is FAISS a database?
 
 ### Answer
 
@@ -134,7 +134,7 @@ These vectors are close because both sentences have similar meanings.
 
 ---
 
-# 7. How does FAISS find similar vectors?
+## 7. How does FAISS find similar vectors?
 
 ### Answer
 
@@ -149,7 +149,7 @@ These vectors are close because both sentences have similar meanings.
 
 ---
 
-# 8. Why retrieve only Top-K chunks?
+## 8. Why retrieve only Top-K chunks?
 
 ### Answer
 
@@ -166,7 +166,7 @@ These vectors are close because both sentences have similar meanings.
 
 ---
 
-# 9. What happens if K is too small?
+## 9. What happens if K is too small?
 
 ### Answer
 
@@ -176,7 +176,7 @@ These vectors are close because both sentences have similar meanings.
 
 ---
 
-# 10. What happens if K is too large?
+## 10. What happens if K is too large?
 
 ### Answer
 
@@ -186,7 +186,7 @@ These vectors are close because both sentences have similar meanings.
 
 ---
 
-# 11. Why did you choose your chunk size?
+## 11. Why did you choose your chunk size?
 
 ### Answer
 
@@ -198,7 +198,7 @@ These vectors are close because both sentences have similar meanings.
 
 ---
 
-# 12. Why use chunk overlap?
+## 12. Why use chunk overlap?
 
 ### Answer
 
@@ -208,7 +208,7 @@ These vectors are close because both sentences have similar meanings.
 
 ---
 
-# 13. What similarity metric did you use?
+## 13. What similarity metric did you use?
 
 ### Answer
 
@@ -220,7 +220,7 @@ These vectors are close because both sentences have similar meanings.
 
 ---
 
-# 14. What metadata did you store?
+## 14. What metadata did you store?
 
 ### Answer
 
@@ -234,7 +234,7 @@ These vectors are close because both sentences have similar meanings.
 
 ---
 
-# 15. What happens when new documents arrive?
+## 15. What happens when new documents arrive?
 
 ### Answer
 
@@ -249,7 +249,7 @@ These vectors are close because both sentences have similar meanings.
 
 ---
 
-# 16. Why separate ingestion and querying?
+## 16. Why separate ingestion and querying?
 
 ### Answer
 
@@ -261,7 +261,7 @@ These vectors are close because both sentences have similar meanings.
 
 ---
 
-# 17. Why use RAG instead of fine-tuning?
+## 17. Why use RAG instead of fine-tuning?
 
 ### Answer
 
@@ -273,7 +273,7 @@ These vectors are close because both sentences have similar meanings.
 
 ---
 
-# 18. What are the limitations of your RAG system?
+## 18. What are the limitations of your RAG system?
 
 ### Answer
 
@@ -287,7 +287,7 @@ Some limitations include:
 
 ---
 
-# 19. If your dataset grows to millions of documents, would you still use FAISS?
+## 19. If your dataset grows to millions of documents, would you still use FAISS?
 
 ### Answer
 
@@ -297,7 +297,7 @@ Some limitations include:
 
 ---
 
-# 20. How do you evaluate a RAG system?
+## 20. How do you evaluate a RAG system?
 
 ### Answer
 
@@ -326,7 +326,7 @@ I evaluate both retrieval and generation.
 
 ---
 
-# 21. What trade-offs did you encounter while building your RAG pipeline?
+## 21. What trade-offs did you encounter while building your RAG pipeline?
 
 ### Answer
 
@@ -342,7 +342,7 @@ I evaluate both retrieval and generation.
 
 ---
 
-# Interview Tips
+## Interview Tips
 
 ## Explain your design decisions.
 
