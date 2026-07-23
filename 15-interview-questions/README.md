@@ -8,4 +8,4 @@
 | [rag-questions](rag-questions/README.md) | RAG, FAISS, embeddings, and vector search interview guide |
 | [system-design-questions](system-design-questions/README.md) | AI system design interview questions |
 | [coding-questions](coding-questions/README.md) | Coding/DSA questions relevant to AI roles |
-| [ai-security-engineer](ai-security-engineer/README.md) | Full interview prep guide for the AI Security Engineer role |
+| [ai-security-engineer](ai-security-engineer/README.md) | AI Security Engineer interview questions & answers (LLM, RAG, agents, OWASP) |
